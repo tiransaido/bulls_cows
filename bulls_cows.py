@@ -1,4 +1,4 @@
-
+#this is bulls_cows game 
 import random
 
 def generate_secret_number():
