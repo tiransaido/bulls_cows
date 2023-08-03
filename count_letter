@@ -1,0 +1,16 @@
+def count_letter_in_word(word, letter):
+    count = 0
+    for char in word:
+        if char == letter:
+            count += 1
+    return count
+
+# Get input from the user
+word = input("Enter a word: ")
+letter = input("Enter a letter: ")
+
+# Call the function 
+result = count_letter_in_word(word, letter)
+
+# Display the result
+print(f"The letter '{letter}' appears {result} times in the word '{word}'.")
